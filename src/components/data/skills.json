@@ -30,5 +30,17 @@
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "skills/nextjs.svg"
+  },
+  {
+    "title": "Nest.js",
+    "imageSrc": "skills/nestjs.svg"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.svg"
   }
 ]

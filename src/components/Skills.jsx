@@ -10,7 +10,7 @@ const Skills = () => {
           {skills.map((data) => (
             <>
               <div
-                className="item"
+                className="item card bg-dark text-light"
                 key={data.id}
                 data-aos="flip-left"
                 data-aos-duration="1000"
