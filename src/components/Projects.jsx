@@ -10,10 +10,10 @@ const Projects = () => {
           {project.map((data) => (
             <div
               key={data.id}
-              className="col-12 col-md-6 col-lg-4 my-4 d-flex align-items-stretch"
+              className="my-4 col-12 col-sm-6 col-lg-4 d-flex justify-content-center align-items-stretch"
             >
               <div
-                className="card bg-dark text-light custom-project-card w-100 h-100"
+                className="card bg-dark text-light custom-project-card d-flex flex-column h-100 w-100"
                 style={{
                   border: "1px solid var(--border-color)",
                 }}

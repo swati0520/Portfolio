@@ -32,7 +32,7 @@ const Navbar = () => {
           <a href="#contact" className="nav_items">
             Contact
           </a>
-          <button className={`btn ${isDarkMode ? "btn-outline-light" : "btn-outline-dark"} ms-3`} onClick={toggleDarkMode}>
+          <button className={`btn ${isDarkMode ? "btn-outline-light" : "btn-outline-dark"} ms-3 theme-btn`} onClick={toggleDarkMode}>
             {isDarkMode ? "Light Mode" : "Dark Mode"}
           </button>
         </div>
